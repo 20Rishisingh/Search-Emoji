@@ -1,0 +1,95 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   height: 100%;
+   width: 100%;
+   background-color: #173451;
+}
+
+h1{
+   color: greenyellow;
+   font-size: 60px;
+   font-family: monospace;
+   text-decoration: 2px underline white;
+}
+
+main{
+   text-align: center;
+   margin: 3rem 1rem;
+   /* color: white; */
+}
+
+main input{
+   margin: 30px 0;
+   padding: 20px 10px;
+   font-size: 20px;
+   border-radius: 10px;
+   border: none;
+   height: 1.8rem;
+   width: 30%;
+   margin-bottom: 1rem;
+}
+
+main #search {
+   font-size: 20px;
+   margin: 0px 18px;
+   padding: 5px 5px;
+   border-radius: 50%;
+   background-color: white;
+   border: none;
+}
+
+#search:hover{
+   cursor: pointer;
+   border: 2px solid greenyellow;
+   background-color: #173451;
+   box-shadow: 3px 3px 6px greenyellow;
+}
+
+.emojiDiv{
+   margin: 20px 40px;
+   padding: 30px 50px;
+   border: 2px solid white;
+   border-radius: 20px;
+}
+
+#tabelData{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: start;
+   overflow: hidden;
+   cursor: pointer;
+}
+.emojibox{
+   width: 64px;
+   height: 64px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+   border-radius: 15px;
+   background-color: gray;
+   border: 2px solid greenyellow;
+}
+
+.emojibox:hover{
+   background-color: greenyellow;
+   border-radius: 15px;
+   transition: 0.3s ease;
+   border: 2px solid white;
+}
+
+.emojiline{
+   font-size: 20px;
+   transition: 0.4s ease-in-out;
+}
+
+.emojiline:hover{
+   scale: 2;
+}
